@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, system-ui;
+}
+body{
+    /* background-color: #052659; */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #c7c8cc;
+}
+.main-container{
+    padding: 10px ;
+    width: 100%;
+}
+.HomeDiv{
+    box-shadow: 0 1px 9px rgba(64, 62, 62, 0.1);
+}
+
+
+.firstDiv{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.home-div{
+    display: flex;
+    justify-content:left;
+
+    gap: 30px;
+    cursor: pointer;
+}
+.home-div :hover{
+    color: blue;
+}
+
+
+.firstDiv input{
+    padding: 10px 25px;
+    border-radius: 18px;
+    font-size: 17px;
+    font-weight: 550;
+    width: 350px;
+    border: none;
+    border: 1px solid black;
+    
+}
+
+.firstDiv button{
+    background-color: transparent;
+    border: none;
+    position:absolute;
+    padding: 5px 10px;
+    right: 0  ;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.weather-app {
+    max-width: 450px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0px 91px rgba(40, 6, 162, 0.1);
+    border-radius: 10px;
+}
+img{
+    width: 50%;
+    height: auto;
+    background-color: transparent;
+}
+.weather-app h1{
+    text-align: center;
+}
+
+.weather-info {
+    text-align: center;
+}
+.weather-info img {
+    size: 200px;
+}
+
+#weather-icon {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+.iconEl{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 33px;
+}
+
+
+#weather-condition {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#weatherTempEl {
+    font-size: 116px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.tempEl{
+    justify-content:center;
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+    font-size: 100px;
+}
+.cityNameEl {
+    justify-content:center;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 28px;
+    padding-bottom: 20px ;
+    color: #666;
+
+}
+.lastDiv{
+    display: flex;
+    justify-content:space-between;
+    text-align: center ;
+    gap: 29PX;
+    padding-top: 33PX;
+}
+
+.icon img{
+    width:99%;
+    height: 50px;
+    background-color: transparent;
+    align-items: center;
+    display: flex;
+}
+.iconPrecent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 110px;
+}
+
+.icon span{
+    font-size: 10px;
+    gap: 100px;
+    display: flex;
+}
+

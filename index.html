@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WeatherApp</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav>
+      
+    </nav>
+    <form action="" id="form" class="main-container">
+      <div>
+        <nav class="HomeDiv">
+
+          <div class="firstDiv">
+            <div class="home-div">
+              <h3><link rel="stylesheet" href="" />Home</h3>
+              <h3><link rel="stylesheet" href="" />About</h3>
+            </div>
+            
+            <input
+            type="text"
+            name="input"
+            id="input"
+            placeholder="Type city or country"
+            />
+            <button type="submit">
+              <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              >
+              <path
+              fill="gray"
+              fill-rule="evenodd"
+              d="m16.622 15.172l4.244 4.244l-1.414 1.415l-4.24-4.24a7 7 0 1 1 1.41-1.42zM16 11a5 5 0 1 0-10 0a5 5 0 0 0 10 0"
+              />
+            </svg>
+          </button>
+        </div>
+      </nav>
+
+        <div class="weather-app">
+          <!-- <h1>Weather App</h1> -->
+          <div class="weather-info">
+            <span class="cityNameEl">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="black"
+                  d="M12 11.5A2.5 2.5 0 0 1 9.5 9A2.5 2.5 0 0 1 12 6.5A2.5 2.5 0 0 1 14.5 9a2.5 2.5 0 0 1-2.5 2.5M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7"
+                />
+              </svg>
+              <p id="cityNameEl"></p>
+            </span>
+            <span class="tempEl">
+              <p id="weatherTempEl"></p>
+              <p>°c</p>
+            </span>
+            <span class="iconEl">
+              <h2 id="weatherConEl">Sunny</h2>
+              <img src="./sunnyicon.png" alt="" id="weatherIcon" />
+            </span>
+          </div>
+          <div class="lastDiv">
+            <div class="icon">
+              <img src="./precipitation.png" alt="" />
+              <span class="iconPrecent" id="precipitationEl"></span>
+              <span>Precipitation</span>
+            </div>
+
+            <div class="icon">
+              <img src="./hum.png" alt="" />
+              <span class="iconPrecent" id="humidityEl"></span>
+              <span>Humidity</span>
+            </div>
+
+            <div class="icon">
+              <img src="./speed.png" alt="" />
+              <span class="iconPrecent" id="windSpeedEl"></span>mpH
+              <span>Wind Speed</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </body>
+  <script src="./script.js"></script>
+</html>
