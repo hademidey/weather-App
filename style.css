@@ -62,11 +62,11 @@ body{
 
 .weather-app {
     max-width: 450px;
-    margin: 40px auto;
+    margin: 100px auto;
     background-color: white;
-    padding: 20px;
+    padding: 60px;
     box-shadow: 0 0px 91px rgba(40, 6, 162, 0.1);
-    border-radius: 10px;
+    border-radius: 20px;
 }
 img{
     width: 50%;
